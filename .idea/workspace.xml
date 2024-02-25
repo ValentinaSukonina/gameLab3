@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35742bde-10d7-4e9c-af49-50b684a24970" name="Changes" comment="update pom.xml add sonar">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/gamelab3/GameModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/gamelab3/GameModelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/valen/OneDrive - University of Gothenburg/ITHS 2023/Lab3/gameLab3",
+    "last_opened_file_path": "C:/Users/valen/OneDrive - University of Gothenburg/ITHS 2023/4_Komplex Javautveckling/restdemoVS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +66,7 @@
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.39885056",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -126,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameModelTest.gameFieldReturnTrueForCellEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameModelTest.gameNotAllowMoveOnOccupiedPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gameLab3" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.gamelab3" />
       <option name="MAIN_CLASS_NAME" value="com.example.gamelab3.GameModelTest" />
-      <option name="METHOD_NAME" value="gameFieldReturnTrueForCellEmpty" />
+      <option name="METHOD_NAME" value="gameNotAllowMoveOnOccupiedPosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,9 +164,9 @@
       <list>
         <item itemvalue="Application.GameApplication" />
         <item itemvalue="JUnit.GameModelTest" />
-        <item itemvalue="JUnit.GameModelTest.gameTestForDraw" />
-        <item itemvalue="JUnit.GameModelTest.gameFieldReturnTrueForCellEmpty" />
+        <item itemvalue="JUnit.GameModelTest.gameNotAllowMoveOnOccupiedPosition" />
         <item itemvalue="JUnit.GameModelTest.gameAllowMoveOnEmptyPosition" />
+        <item itemvalue="JUnit.GameModelTest.gameTestForDraw" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +195,7 @@
       <workItem from="1705343062884" duration="115000" />
       <workItem from="1706718661356" duration="3294000" />
       <workItem from="1708765146077" duration="4707000" />
+      <workItem from="1708793978561" duration="5987000" />
     </task>
     <task id="LOCAL-00001" summary="update pom.xml add sonar">
       <option name="closed" value="true" />
@@ -225,6 +228,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gameLab3$GameModelTest_testMoveOnOccupiedCell.ic" NAME="GameModelTest.testMoveOnOccupiedCell Coverage Results" MODIFIED="1701026561687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.gamelab3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gameLab3$GameModelTest.ic" NAME="GameModelTest Coverage Results" MODIFIED="1708871608493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.gamelab3.*</FILTER>
     </SUITE>
   </component>
