@@ -1,4 +1,4 @@
-name: SonarCloud 2024
+name: SonarCloud
 on:
   push:
     branches:
